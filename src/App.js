@@ -1,3 +1,5 @@
+import React from "react";
+
 import useAuth from "./hooks/use-auth";
 
 import Profile from "./components/profile/Profile";

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import cl from "./Statistics.module.scss";
 
@@ -27,6 +28,11 @@ const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default Statistics;

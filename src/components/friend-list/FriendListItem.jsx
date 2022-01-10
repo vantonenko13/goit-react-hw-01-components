@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import cl from "./styles/FriendList.module.scss";
 
@@ -12,6 +13,14 @@ const FriendListItem = ({ friend }) => {
       <p className={cl.name}>{name}</p>
     </li>
   );
+};
+
+FriendListItem.propTypes = {
+  friend: PropTypes.shape({
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    isOnline: PropTypes.bool,
+  }),
 };
 
 export default FriendListItem;
