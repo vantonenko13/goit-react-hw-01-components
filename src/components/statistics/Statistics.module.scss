@@ -1,0 +1,28 @@
+.statistics {
+  margin: 70px 0;
+  .title {
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  .statlist {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 575px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    li {
+      width: 20%;
+      padding: 10px 20px;
+      color: #fff;
+      span {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        text-align: center;
+      }
+    }
+  }
+}

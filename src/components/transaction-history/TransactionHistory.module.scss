@@ -1,0 +1,26 @@
+.transactions {
+  max-width: 575px;
+  width: 100%;
+  table-layout: fixed;
+  margin: 70px auto;
+  thead {
+    background: #000;
+    color: #fff;
+    th {
+      padding: 10px 20px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  tbody {
+    color: #fff;
+    tr:nth-child(odd) {
+      background-color: #eee;
+      color: #242424;
+    }
+    td {
+      padding: 10px 20px;
+      text-align: center;
+    }
+  }
+}
