@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import cl from "./styles/FriendList.module.scss";
+import cl from "./FriendList.module.scss";
 
 const FriendListItem = ({ friend }) => {
   const { avatar, name, isOnline } = friend;

@@ -3,9 +3,7 @@ import PropTypes from "prop-types";
 
 import cl from "./Profile.module.scss";
 
-const Profile = ({ user }) => {
-  const { username, tag, location, avatar, stats } = user;
-
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={cl.profile}>
       <div className={cl.description}>

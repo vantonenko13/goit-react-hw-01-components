@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import Item from "./FriendListItem";
 
-import cl from "./styles/FriendList.module.scss";
+import cl from "./FriendList.module.scss";
 
 const FriendList = ({ friendList }) => {
   return (
